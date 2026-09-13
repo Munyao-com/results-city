@@ -70,6 +70,10 @@
         body: new FormData(form)
       }).then(function (res) {
         if (!res.ok) throw new Error(res.status);
+        return res.json();
+      }).then(function (data) {
+        // FormSubmit answers 200 with success "false" when delivery did not happen.
+        if (String(data.success) !== 'true') throw new Error(data.message);
         btn.textContent = btn.dataset.done;
       }).catch(function () {
         form.submit();
