@@ -2,6 +2,7 @@
    raw numbers are copied from the reference build and are deliberately un-rounded. */
 
 .wrap{max-width:var(--content-max);margin:0 auto;padding:0 var(--gutter)}
+[hidden]{display:none!important}
 .visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 
 /* Button */
