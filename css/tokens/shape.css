@@ -1,0 +1,24 @@
+:root{
+  --radius-control:8px;   /* buttons, inputs */
+  --radius-thumb:10px;    /* video card thumbnails */
+  --radius-modal:12px;    /* modal player */
+  --radius-panel:14px;    /* hero player, feature panels */
+  --radius-circle:50%;
+
+  --border-width-control:2px;
+  --border-width-hairline:1px;
+  --rule-accent:4px;      /* pillar left rule */
+
+  --shadow-player:0 30px 70px rgba(0,0,0,.45);
+  --shadow-modal:0 30px 80px rgba(0,0,0,.6);
+  --shadow-play:0 8px 24px rgba(0,0,0,.35);
+  --shadow-none:none;
+
+  --size-play-hero:64px;
+  --size-play-card:34px;
+  --size-social:36px;
+  --logo-height-nav:30px;
+  --logo-height-footer:26px;
+  --logo-min-width:120px;
+  --mark-min-width:24px;
+}

@@ -1,0 +1,13 @@
+:root{
+  --duration-fast:120ms; /* @kind other */
+  --duration-base:200ms; /* @kind other */
+  --duration-slow:420ms; /* @kind other */
+  --ease-standard:ease; /* @kind other */
+  --ease-out:cubic-bezier(.22,.61,.36,1); /* @kind other */
+  --transition-overlay:background var(--duration-base) var(--ease-standard);
+  --focus-offset:3px;
+  --focus-width:3px;
+}
+@media (prefers-reduced-motion:reduce){
+  :root{--duration-fast:0ms; /* @kind other */ --duration-base:0ms; /* @kind other */ --duration-slow:0ms; /* @kind other */}
+}

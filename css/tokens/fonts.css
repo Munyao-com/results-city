@@ -1,0 +1,3 @@
+/* Results City uses one family: Exo 2, served from Google Fonts.
+   No font binaries ship with the brand kit; the reference build links the CDN. */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap");

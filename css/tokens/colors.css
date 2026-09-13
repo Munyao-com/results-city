@@ -1,0 +1,64 @@
+:root{
+  /* Brand */
+  --rc-orange:#F45A06;
+  --rc-orange-hover:#D74E03;
+  --rc-orange-soft:#FFB48A;
+  /* Midnight Deep is the brand ground. --rc-blue is kept as the name components
+     reference; its value is now Midnight Deep. --rc-blue-mid is the lighter
+     Midnight Blue, retained for the hover wash on video thumbnails. */
+  --rc-blue:#0C1D4B;
+  --rc-blue-deep:#0C1D4B;
+  --rc-blue-mid:#122A6A;
+
+  /* Neutrals */
+  --rc-ink:#1B1F2B;
+  --rc-muted:#5D6478;
+  --rc-tint:#EEF1F8;
+  --rc-line:#D7DCE8;
+  --rc-line-nav:#E3E7F0;
+  --rc-line-strong:#C9CFDD;
+  --rc-thumb:#DFE3EE;
+  --rc-black:#000;
+  --rc-white:#FFFFFF;
+
+  /* Alpha */
+  --rc-white-45:rgba(255,255,255,.45);
+  --rc-white-08:rgba(255,255,255,.08);
+  --rc-blue-18:rgba(12,29,75,.22);
+  --rc-backdrop:rgba(12,29,75,.9);
+  --rc-player-scrim:linear-gradient(to top,rgba(12,29,75,.85),rgba(12,29,75,0) 55%); /* @kind color */
+
+  /* Semantic */
+  --text-body:var(--rc-ink);
+  --text-heading:var(--rc-ink);
+  --text-muted:var(--rc-muted);
+  --text-on-dark:var(--rc-white);
+  --text-on-dark-soft:rgba(255,255,255,.9);
+  --text-link:var(--rc-blue);
+  --text-link-hover:var(--rc-orange);
+  --text-accent:var(--rc-orange);
+
+  --surface-page:var(--rc-white);
+  --surface-quiet:var(--rc-tint);
+  --surface-brand:var(--rc-blue);
+  --surface-brand-deep:var(--rc-blue-deep);
+  --surface-media:var(--rc-black);
+  --surface-field:var(--rc-white);
+
+  --border-default:var(--rc-line);
+  --border-nav:var(--rc-line-nav);
+  --border-on-dark:var(--rc-white-45);
+
+  /* Midnight Deep is the primary action colour; Orange Red is the secondary. */
+  --action-primary:var(--rc-blue);
+  --action-primary-hover:var(--rc-blue-mid);
+  --action-primary-text:var(--rc-white);
+  --action-secondary:var(--rc-orange);
+  --action-secondary-hover:var(--rc-orange-hover);
+  --action-secondary-text:var(--rc-white);
+  /* On the Midnight Deep ground the primary action inverts to white. */
+  --action-on-dark:var(--rc-white);
+  --action-on-dark-hover:var(--rc-tint);
+  --action-on-dark-text:var(--rc-blue);
+  --focus-ring:var(--rc-orange);
+}
